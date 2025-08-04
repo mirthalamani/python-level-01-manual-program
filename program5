@@ -1,0 +1,17 @@
+print("mirthala international[p] ltd")
+print("no:15,nagapura dist bangalour")
+print("------------------------------")
+print("employee payroll system")
+print("------------------------")
+id=int(input("enter the employee id:"))
+name=input("enter the employee name:")
+salary=int(input("enter the salary:"))
+print("income")
+bonas=salary=20/100
+print("bonas(20 percentage):",bonas)
+overtime=salary*10/100
+print("overtime(10 percentage):",overtime)
+travel=salary*5/100
+print("travel allowance(10 percentage):",travel)
+gross=salary+bonas+overtime+travel
+print("gross pay in rupes:",gross)           
