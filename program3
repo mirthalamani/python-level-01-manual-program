@@ -1,0 +1,12 @@
+print("government of tamil nadu")
+print("electricity board")
+print("------------------")
+no1=input("enter the eb no:")
+no2=input("enter the costomer name:")
+pre=int(input("reading of privious month:"))
+cur=int(input("reading for current month:"))
+total=cur-pre
+print("total unit consumed :",total)
+paid=total*5
+print("amount to be paid rs:",paid)
+          
