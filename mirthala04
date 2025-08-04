@@ -1,0 +1,15 @@
+print("MIRTHALA SUPER MARKET")
+print("no 44,nehru street puduchrry")
+print("-----------------------------")
+print("BILL RECIPT")
+print("------------------------------")
+sl=input("enter the serial number:")
+par=input("enter the particular:")
+rate=int(input("enter the rate:"))
+qty=int(input("enter the quality:"))
+total=rate*qty
+print("total amount:", total)
+GST=total*10/100
+print("GST(10 percentage):",GST)
+paid=total+GST
+print("amount to be paid rs:",paid)
