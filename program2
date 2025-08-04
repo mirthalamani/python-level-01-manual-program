@@ -1,0 +1,14 @@
+print("tahshasila university")
+print("ongur tindivanam villupuram dist.tn")
+print("----------------------")
+print("student mark list")
+print("-----------------------")
+str1=input("enter the register no:")
+str2=input("enter the name:")
+no1=int(input("python mark:"))
+no2=int(input("dbms mark:"))
+no3=int(input("accountancy mark:"))
+total=no1+no2+no3
+print("total mark:",total)
+average=total/3
+print("average mark:",average)
